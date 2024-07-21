@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#quote-box {
+  background: white;
+  padding: 20px; /* Add padding around the content */
+  border-radius: 5px; /* Round the corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* Add a subtle shadow for depth */
+  text-align: center;
+}
+
+#new-quote {
+  margin: 10px;
+}
+
+#tweet-quote {
+  display: inline-block; /* Make the box inline-block to center it horizontally */
+  margin: 10px;
+  text-decoration: none;
+  color: #1DA1F2;
+}
